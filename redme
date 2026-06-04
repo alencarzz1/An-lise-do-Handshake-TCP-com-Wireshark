@@ -10,7 +10,7 @@ Documentação RFC 9293 (https://www.rfc-editor.org/info/rfc9293/#name-establish
 
 ##Exemplo de cabeçalho TCP
 
-![Estrutura do Cabeçalho TCP](images/IMAGEM DO FRAME TCP.png)
+![Teste](images/tcp-header.png)
 
 ## Tecnologias Utilizadas
 
