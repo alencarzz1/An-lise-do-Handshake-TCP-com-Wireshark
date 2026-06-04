@@ -10,7 +10,7 @@ Documentação RFC 9293 (https://www.rfc-editor.org/info/rfc9293/#name-establish
 
 ## Exemplo de cabeçalho TCP
 
-![Análise de Pacotes Wireshark](images/analise-pacotes-wireshark.png)
+![CABEÇALHO TCP](images/IMAGEM-DO-FRAME-TCP.png)
 
 ## Tecnologias Utilizadas
 
@@ -35,7 +35,7 @@ Cliente:
 Foi utilizado o Wireshark para monitorar o tráfego entre cliente e servidor, com filtros de ip de origem protocolo e porta para facilitar a visualização.
 FIltro utilizado:`ip.addr == 192.168.0.8 && tcp.port == 8080`
 
-![Análise de Pacotes Wireshark](imagens/ANALISE DE PACOTES WIRESHARK.png)
+![Análise de Pacotes Wireshark](imagens/ANALISE-DE-PACOTES-WIRESHARK.png)
 
 ## Análise do Three-Way Handshake
 
