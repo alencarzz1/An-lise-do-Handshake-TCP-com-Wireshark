@@ -1,0 +1,49 @@
+# Análise do Handshake TCP com Wireshark
+
+## Objetivo
+
+Analisar o processo de estabelecimento de conexão TCP através da captura e inspeção de pacotes utilizando Wireshark.
+
+## Introdução 
+O "Three-way handshak" é o procedimento estabelecido no modelo TCP/IP e usado para estabelecer um conexão. Este procedimento é normalmente iniciado por um par TCP e respondido por outro par do TCP.
+Documentação RFC 9293 (https://www.rfc-editor.org/info/rfc9293/#name-establishing-a-connection)
+
+##Exemplo de frame TCP
+
+[imagem]
+## Tecnologias Utilizadas
+
+- Python
+- Linux
+- Wireshark
+- TCP/IP
+
+## Ambiente de Testes
+
+Servidor:
+- Python HTTP Server
+- IP: 192.168.0.7
+
+Cliente:
+- Smartphone IOS
+-IP: 192.168.0.8
+
+## Captura de Tráfego
+
+Foi utilizado o Wireshark para monitorar o tráfego entre cliente e servidor.
+
+## Análise do SYN
+
+[imagem]
+
+## Análise do SYN-ACK
+
+[imagem]
+
+## Análise do ACK
+
+[imagem]
+
+## Conclusão
+
+O experimento permitiu observar o Three-Way Handshake do protocolo TCP e compreender o processo de estabelecimento de conexões confiáveis em redes IP.hak 
