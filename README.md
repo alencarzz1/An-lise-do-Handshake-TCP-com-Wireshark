@@ -5,7 +5,7 @@
 Analisar o processo de estabelecimento de conexão TCP através da captura e inspeção de pacotes utilizando Wireshark.
 
 ## Introdução 
-O "Three-Way handshak" é o procedimento estabelecido no modelo TCP/IP e usado para estabelecer um conexão. Este procedimento é normalmente iniciado por um par TCP e respondido por outro par do TCP.
+O "Three-Way handshak" é o procedimento estabelecido no modelo TCP/IP e usado para estabelecer uma conexão. Este procedimento é normalmente iniciado por um par TCP e respondido por outro par do TCP.
 Documentação RFC 9293 (https://www.rfc-editor.org/info/rfc9293/#name-establishing-a-connection)
 
 ## Exemplo de cabeçalho TCP
